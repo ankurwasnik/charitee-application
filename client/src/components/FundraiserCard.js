@@ -7,6 +7,9 @@ import { CardMedia,CardContent,CardActions,Button,Typography,Card } from "@mui/m
  description={e.description}
  beneficiary={e.beneficiary}
 */
+function handleDonate(){
+    alert("Donate clicked!");
+}
 const FundraiserCard = (props)=>{
     useEffect(()=>{
 
@@ -36,7 +39,7 @@ const FundraiserCard = (props)=>{
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small" variant="contained">Donate</Button>
+                    <Button size="small" variant="contained" onClick={handleDonate}>Donate</Button>
                     <Button size="small">Learn More</Button>
                 </CardActions>
             </Card>
