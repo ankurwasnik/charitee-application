@@ -42,8 +42,8 @@ const Home = ()=>{
 
     },[]);
 
-    return(
-      <div className="d-flex flex-row justify-content-center flex-wrap">
+    return( 
+      <div className="container d-flex flex-row  flex-wrap">
         {FundRaisers.map( (e,id)=><FundraiserCard key={id} name={e.name} url={e.url} imageUrl={e.imageUrl} description={e.description} beneficiary={e.beneficiary} />)}
       </div>
     );
