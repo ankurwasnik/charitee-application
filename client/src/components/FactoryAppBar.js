@@ -21,10 +21,10 @@ function FactoryAppBar(){
               >
                 <MenuIcon />
               </IconButton>
-              <Typography variant="h6" component="div"  sx={{ mr: 2 }}>
+              <Typography variant="h6" component="h2"  sx={{ mr: 2 }}>
                 <Link to="/">Home</Link>
               </Typography>
-              <Typography variant="h6" component="div" >
+              <Typography variant="h6" component="h2" >
                 <Link to="/new">New Fundraiser</Link>
               </Typography>      
             </Toolbar>

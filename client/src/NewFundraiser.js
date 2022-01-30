@@ -5,7 +5,7 @@ const NewFundraiser = ()=>{
     },[]);
 
     return(
-        <div>
+        <div className="container">
             <h2>Create a new Fundraiser</h2>
         </div>
     );
